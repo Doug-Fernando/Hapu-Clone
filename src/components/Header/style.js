@@ -39,7 +39,7 @@ export const LogoShape = styled.div`
   border-radius: 0px 0px 32px 32px;
 `;
 
-export const BecomeNannyButton = styled.button`
+export const BecomeNannyButton = styled.a`
   position: absolute;
   left: 30.56%;
   top: 0.37%;
@@ -51,6 +51,11 @@ export const BecomeNannyButton = styled.button`
   height: 44px;
   margin: 16px 16px 0 0;
   border: 0;
+
+  &:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
 `;
 
 export const ButtonText = styled.p`
@@ -102,9 +107,9 @@ export const PlayIconBg = styled.button`
   border: 0;
 
   &:hover {
-    opacity: 0.8
+    opacity: 0.8;
+    cursor: pointer;
   }
-
 `;
 
 export const PlayIcon = styled.img`
@@ -121,19 +126,11 @@ export const PlayText = styled.p`
   left: 100px;
   right: 34px;
   top: 414px;
-
-  /* Link (M16) */
-
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height, or 150% */
-
   text-decoration-line: underline;
-
-  /* White */
-
   color: #FFFFFF;
 `;

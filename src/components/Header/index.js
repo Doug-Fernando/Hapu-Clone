@@ -15,7 +15,7 @@ function Header() {
       <Image src={ bgImage } alt="background-image" />
       <LogoShape />
       <Logo src={ logo } alt="logo" />
-      <BecomeNannyButton type="submit">
+      <BecomeNannyButton type="button">
         <ButtonText> Become a nanny today</ButtonText>
       </BecomeNannyButton>
       <MainPhrase>
@@ -25,7 +25,7 @@ function Header() {
         Hapu is Airbnb for nanny share. Share your home, nanny and costs and
         create new flexible, affordable solutions in childcare.
       </SecPhrase>
-      <PlayIconBg />
+      <PlayIconBg type="button" />
       <PlayIcon src={ playIcon } alt="play icon" />
       <PlayText> See hapu in action (27 seconds) </PlayText>
     </>

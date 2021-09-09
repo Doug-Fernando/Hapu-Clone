@@ -5,6 +5,7 @@ export const FeatPerson = styled.section`
   top: 540px;
   height: 216px;
   width: 100%;
+  border-bottom: 2px solid #DFDFDF;  
 `;
 
 export const FeatPersonImg = styled.img`
