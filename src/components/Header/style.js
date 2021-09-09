@@ -10,7 +10,7 @@ export const Image = styled.img`
   opacity: 0.9;
 `;
 
-export const Gradient = styled.section`
+export const Gradient = styled.header`
   position: absolute;
   width: 100%;
   height: 540px;
