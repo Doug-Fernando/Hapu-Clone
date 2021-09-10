@@ -3,7 +3,7 @@ import React from 'react';
 import planImage from '../../images/ImageSection1.png';
 import { AboutImage, AboutPhrase, AboutText, GetStartedLink, Divider } from './style';
 
-function index() {
+function Index() {
   return (
     <>
       <AboutImage src={ planImage } alt="Plan image" />
@@ -29,4 +29,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

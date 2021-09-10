@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { Phrase, Text, Input, InputGroup, SubmitButton, Divider } from './style';
 
-function index() {
+const Index = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+
+  const handleChange = {
+    name: ({ target }) => setName(target.value),
+    email: ({ target }) => setEmail(target.value),
+  };
   return (
     <>
       <Phrase>
@@ -13,13 +20,23 @@ function index() {
         share becomes available in your area!
       </Text>
       <InputGroup>
-        <Input type="text" placeholder="Your name" />
-        <Input type="text" placeholder="Your e-mail" />
+        <Input
+          onChange={ handleChange.name }
+          value={ name }
+          type="text"
+          placeholder="Your name"
+        />
+        <Input
+          onChange={ handleChange.email }
+          value={ email }
+          type="text"
+          placeholder="Your e-mail"
+        />
         <SubmitButton>Send</SubmitButton>
       </InputGroup>
       <Divider />
     </>
   );
-}
+};
 
-export default index;
+export default Index;

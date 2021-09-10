@@ -8,7 +8,7 @@ import { Image, Gradient, Logo, LogoShape,
   BecomeNannyButton, ButtonText, MainPhrase, SecPhrase,
   PlayIconBg, PlayIcon, PlayText } from './style';
 
-function index() {
+function Index() {
   return (
     <>
       <Gradient />
@@ -32,4 +32,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

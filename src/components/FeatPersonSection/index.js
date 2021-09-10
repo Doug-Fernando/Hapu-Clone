@@ -4,7 +4,7 @@ import featPersonImage from '../../images/ProfileImage.svg';
 
 import { FeatPerson, FeatPersonImg, FeatPersonText, FeatPersonSchedule } from './style';
 
-function index() {
+function Index() {
   return (
     <>
       <FeatPerson />
@@ -19,4 +19,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;
