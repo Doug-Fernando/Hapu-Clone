@@ -70,7 +70,7 @@ export const ButtonText = styled.p`
   color: #FFFFFF;
 `;
 
-export const MainPhrase = styled.p`
+export const MainPhrase = styled.h1`
   position: absolute;
   margin: 152px 44px 0;
   font-family: Inter;

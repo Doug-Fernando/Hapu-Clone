@@ -8,7 +8,7 @@ export const AboutImage = styled.img`
   top: 800px;
 `;
 
-export const AboutPhrase = styled.p`
+export const AboutPhrase = styled.h4`
   position: absolute;
   height: 64px;
   left: 19.72%;
@@ -55,4 +55,14 @@ export const GetStartedLink = styled.a`
   line-height: 24px;
   text-decoration-line: underline;
   color: #5E20A4;
+`;
+
+export const Divider = styled.div`
+  position: absolute;
+  bottom: -100%;
+  left: 38px;
+  width: 328px;
+  height: 0;
+  position: absolute;
+  border: 1px solid #DFDFDF;
 `;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import planImage from '../../images/ImageSection1.png';
-import { AboutImage, AboutPhrase, AboutText, GetStartedLink } from './style';
+import { AboutImage, AboutPhrase, AboutText, GetStartedLink, Divider } from './style';
 
 function index() {
   return (
@@ -24,6 +24,7 @@ function index() {
       <GetStartedLink href="/register">
         Ready to get started?
       </GetStartedLink>
+      <Divider />
     </>
   );
 }
