@@ -8,6 +8,8 @@ import { Container, Phrase, SecondPhrase, CreateNannyShareButton,
   BrowseLocalNannyShareLink,
   Logo } from './style';
 
+import FooterLinks from '../FooterLinks';
+
 function Index() {
   return (
     <Container>
@@ -29,6 +31,7 @@ function Index() {
         Or browse local nanny-shares
       </BrowseLocalNannyShareLink>
       <Logo src={ LogoSVG } alt="Hapu logo" />
+      <FooterLinks />
     </Container>
   );
 }
