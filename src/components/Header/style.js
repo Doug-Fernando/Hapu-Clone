@@ -1,21 +1,28 @@
 import styled from 'styled-components';
 
-export const Image = styled.img`
-  position: absolute;
+export const Container = styled.header`
+  display: flex;
   width: 100%;
   height: 540px;
-  left: 0px;
-  top: 0px;
+  background: #ccc;
+`;
+
+export const Image = styled.img`
+  /* position: absolute; */
+  width: 100%;
+  height: 540px;
+  /* left: 0px; */
+  /* top: 0px; */
   mix-blend-mode: overlay;
   opacity: 0.9;
 `;
 
-export const Gradient = styled.header`
+export const Gradient = styled.div`
   position: absolute;
   width: 100%;
   height: 540px;
-  left: 0px;
-  top: 0px;
+  /* left: 0px; */
+  /* top: 0px; */
   background: linear-gradient(314.72deg, #C86DD7 -1.5%, #7E49C3 39.43%, #5912AC 86.02%);
   
 `;
@@ -97,6 +104,9 @@ export const SecPhrase = styled.p`
 `;
 
 export const PlayIconBg = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 48px;
   height: 48px;
   position: absolute;
@@ -113,11 +123,9 @@ export const PlayIconBg = styled.button`
 `;
 
 export const PlayIcon = styled.img`
-  position: absolute;
-  left: 8.5%;
-  right: 91.5%;
-  top: 58.2%;
-  bottom: 51.8%;
+  display: flex;
+  align-self: center;
+  margin-left: 3px; 
 `;
 
 export const PlayText = styled.p`

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import planImage from '../../images/ImageSection1.png';
+import planImage from '../../images/ImageSection1.svg';
 import { AboutImage, AboutPhrase, AboutText, GetStartedLink, Divider } from './style';
 
 function Index() {

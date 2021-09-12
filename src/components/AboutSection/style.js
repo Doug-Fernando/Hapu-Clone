@@ -6,6 +6,7 @@ export const AboutImage = styled.img`
   height: 204px;
   left: 55px;
   top: 800px;
+
 `;
 
 export const AboutPhrase = styled.h4`
