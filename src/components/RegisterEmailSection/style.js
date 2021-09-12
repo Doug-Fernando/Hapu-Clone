@@ -1,10 +1,19 @@
 import styled, { keyframes } from 'styled-components';
 
+export const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+`;
+
 export const Phrase = styled.h2`
-  position: absolute;
+  /* position: absolute;
   left: 4.44%;
   right: 4.44%;
-  bottom: -120%;
+  bottom: -120%; */
+  margin: 64px 40px 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -17,10 +26,11 @@ export const Phrase = styled.h2`
 `;
 
 export const Text = styled.p`
-  position: absolute;
-  left: 4.44%;
-  right: 4.44%;
-  bottom: -132%;
+  /* position: absolute; */
+  /* left: 4.44%; */
+  /* right: 4.44%; */
+  /* bottom: -132%; */
+  margin: 16px 30px 0;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -31,13 +41,14 @@ export const Text = styled.p`
 `;
 
 export const InputGroup = styled.div`
+  /* position: absolute; */
+  /* bottom: -148%; */
   display: flex;
   flex-direction: column;
-  position: absolute;
-  bottom: -148%;
   width: 100%;
   height: 120px;
   align-items: center;
+  margin: 32px 0 0;
 `;
 
 export const Input = styled.input`
@@ -45,7 +56,6 @@ export const Input = styled.input`
   height: 48px;
   margin-bottom: 10px;
   background: #FFFFFF;
-  /* border: 1px solid #CCC; */
   box-sizing: border-box;
   border-radius: 4px;
   text-indent: 5px;
@@ -70,13 +80,13 @@ export const SubmitButton = styled.button`
 `;
 
 export const Divider = styled.div`
-  position: absolute;
+  /* position: absolute;
   bottom: -155%;
-  left: 38px;
+  left: 38px; */
   width: 328px;
   height: 0;
-  position: absolute;
   border: 1px solid #DFDFDF;
+  margin: 64px 0 0;
 `;
 
 const spin = keyframes`

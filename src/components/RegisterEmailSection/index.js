@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import newsLetterIntegration from '../../service/api';
 
-import { Phrase, Text, Input, InputGroup, SubmitButton,
+import { Container, Phrase, Text, Input, InputGroup, SubmitButton,
   Divider, LoadAnimation } from './style';
 
 const HTTP_SUCCESS_CODE = 200;
@@ -45,7 +45,7 @@ const Index = () => {
   };
 
   return (
-    <>
+    <Container>
       <Phrase>
         Are you a parent without a nanny and looking to share?
       </Phrase>
@@ -78,7 +78,7 @@ const Index = () => {
           : <LoadAnimation />}
       </InputGroup>
       <Divider />
-    </>
+    </Container>
   );
 };
 
