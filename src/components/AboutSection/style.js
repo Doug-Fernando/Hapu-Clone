@@ -1,20 +1,30 @@
 import styled from 'styled-components';
 
+export const Container = styled.section`
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+`;
+
 export const AboutImage = styled.img`
-  position: absolute;
+  /* position: absolute; */
   width: 304px;
   height: 204px;
-  left: 55px;
-  top: 800px;
+  /* left: 55px; */
+  /* top: 800px; */
 
 `;
 
 export const AboutPhrase = styled.h4`
-  position: absolute;
+  /* position: absolute; */
+  /* left: 19.72%; */
+  /* right: 19.72%; */
+  /* bottom: -50%; */
   height: 64px;
-  left: 19.72%;
-  right: 19.72%;
-  bottom: -50%;
+  /* width: 200px; */
+  margin: 24px 80px 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -25,10 +35,11 @@ export const AboutPhrase = styled.h4`
 `;
 
 export const AboutText = styled.p`
-  position: absolute;
-  left: 4.44%;
-  right: 4.44%;
-  bottom: -90%;
+  /* position: absolute; */
+  /* left: 4.44%; */
+  /* right: 4.44%; */
+  /* bottom: -90%; */
+  margin: 16px 16px 0;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -44,11 +55,12 @@ export const AboutText = styled.p`
 `;
 
 export const GetStartedLink = styled.a`
-  position: absolute;
-  height: 24px;
+  /* position: absolute;
   left: 29%;
   right: 28.33%;
-  bottom: -94%;
+  bottom: -94%; */
+  height: 24px;
+  margin: 24px 0 0;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -59,11 +71,8 @@ export const GetStartedLink = styled.a`
 `;
 
 export const Divider = styled.div`
-  position: absolute;
-  bottom: -100%;
-  left: 38px;
   width: 328px;
   height: 0;
-  position: absolute;
   border: 1px solid #DFDFDF;
+  margin-top: 64px;
 `;

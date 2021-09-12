@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../../components/Header';
 import FeatPerson from '../../components/FeatPersonSection';
-// import AboutSection from '../../components/AboutSection';
+import AboutSection from '../../components/AboutSection';
 // import RegisterEmailSection from '../../components/RegisterEmailSection';
 // import SharedPaymentSection from '../../components/SharedPaymentSection';
 // import FooterSection from '../../components/Footer';
@@ -12,8 +12,8 @@ function index() {
     <>
       <Header />
       <FeatPerson />
-      { /* <AboutSection />
-      <RegisterEmailSection />
+      <AboutSection />
+      { /* <RegisterEmailSection />
       <SharedPaymentSection />
       <FooterSection /> */}
     </>

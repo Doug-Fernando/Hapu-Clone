@@ -1,11 +1,12 @@
 import React from 'react';
 
 import planImage from '../../images/ImageSection1.svg';
-import { AboutImage, AboutPhrase, AboutText, GetStartedLink, Divider } from './style';
+import { Container, AboutImage, AboutPhrase,
+  AboutText, GetStartedLink, Divider } from './style';
 
 function Index() {
   return (
-    <>
+    <Container>
       <AboutImage src={ planImage } alt="Plan image" />
       <AboutPhrase>
         Share your home, nanny and costs
@@ -25,7 +26,7 @@ function Index() {
         Ready to get started?
       </GetStartedLink>
       <Divider />
-    </>
+    </Container>
   );
 }
 

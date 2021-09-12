@@ -5,8 +5,9 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 216px;
+  /* height: 216px; */
 
+  padding-bottom: 32px;
   border-bottom: 1px solid #DFDFDF;
 `;
 
