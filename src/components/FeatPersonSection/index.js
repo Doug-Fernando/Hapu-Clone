@@ -2,12 +2,12 @@ import React from 'react';
 
 import featPersonImage from '../../images/ProfileImage.svg';
 
-import { FeatPerson, FeatPersonImg, FeatPersonText, FeatPersonSchedule } from './style';
+import { Container, FeatPersonImg,
+  FeatPersonText, FeatPersonSchedule } from './style';
 
 function Index() {
   return (
-    <>
-      <FeatPerson />
+    <Container>
       <FeatPersonImg src={ featPersonImage } alt="Feat person image" />
       <FeatPersonText>
         Sarah’s day care available now in North Sydney
@@ -15,7 +15,7 @@ function Index() {
       <FeatPersonSchedule>
         Wednesday, Thursday, Friday - 7:30 - 5:30
       </FeatPersonSchedule>
-    </>
+    </Container>
   );
 }
 
