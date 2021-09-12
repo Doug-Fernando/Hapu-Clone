@@ -4,8 +4,9 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   width: 100%;
-  position: absolute;
-  bottom: -195%;
+  margin: 64px 0 0;
+  /* position: absolute; */
+  /* bottom: -195%; */
   align-items: center;
 `;
 
@@ -30,9 +31,22 @@ export const Text = styled.p`
   width: 90%;
 `;
 
+export const PhraseTwo = styled.a`
+  margin: 24px 25px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #5E20A4;
+`;
+
 export const Divider = styled.div`
-  position: absolute;
-  bottom: -200%;
+  /* position: absolute; */
+  /* bottom: -200%; */
+  margin: 64px 0 0;
   width: 328px;
   left: 38px; 
   height: 0;
