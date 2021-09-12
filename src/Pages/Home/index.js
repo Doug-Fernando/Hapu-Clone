@@ -5,7 +5,7 @@ import FeatPerson from '../../components/FeatPersonSection';
 import AboutSection from '../../components/AboutSection';
 import RegisterEmailSection from '../../components/RegisterEmailSection';
 import SharedPaymentSection from '../../components/SharedPaymentSection';
-// import FooterSection from '../../components/Footer';
+import FooterSection from '../../components/Footer';
 
 function index() {
   return (
@@ -15,7 +15,7 @@ function index() {
       <AboutSection />
       <RegisterEmailSection />
       <SharedPaymentSection />
-      { /* <FooterSection /> */}
+      <FooterSection />
     </>
   );
 }

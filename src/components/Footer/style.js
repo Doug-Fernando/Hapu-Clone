@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.footer`
-  position: absolute;
   display: flex;
   flex-direction: column;
+  margin: 64px 0 0;
   width: 100%;
   height: 200px;
-  /* background: red; */
-  bottom: -233%;
   align-items: center;
 `;
 
