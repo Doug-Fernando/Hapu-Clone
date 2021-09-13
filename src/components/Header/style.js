@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+import bgImage from '../../images/Image.png';
+import bgImageDesktop from '../../images/Imagebig.png';
+import SideImageSVG from '../../images/ImageHeader.png';
+
 export const Container = styled.header`
   display: flex;
   width: 100%;
@@ -9,12 +13,18 @@ export const Container = styled.header`
 
 export const Image = styled.img`
   /* position: absolute; */
-  width: 100%;
-  height: 540px;
   /* left: 0px; */
   /* top: 0px; */
+  background-image: url(${bgImage});
+  background-size: cover;
+  width: 100%;
+  height: 540px;
   mix-blend-mode: overlay;
   opacity: 0.9;
+
+  @media screen and (min-width: 830px) {
+    background-image: url(${bgImageDesktop});
+  }
 `;
 
 export const Gradient = styled.div`
@@ -46,37 +56,6 @@ export const LogoShape = styled.div`
   border-radius: 0px 0px 32px 32px;
 `;
 
-export const BecomeNannyButton = styled.a`
-  position: absolute;
-  left: 30.56%;
-  top: 0.37%;
-  right: 4.44%; 
-  bottom: 98.63%;
-  background: #00A870;
-  border-radius: 4px; 
-  width: 234px;
-  height: 44px;
-  margin: 16px 16px 0 0;
-  border: 0;
-
-  &:hover {
-    opacity: 0.9;
-    cursor: pointer;
-  }
-`;
-
-export const ButtonText = styled.p`
-  height: 20px;
-  left: 36.67%;
-  right: 10.28%;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  text-align: center;
-  color: #FFFFFF;
-`;
-
 export const MainPhrase = styled.h1`
   position: absolute;
   margin: 152px 44px 0;
@@ -89,6 +68,13 @@ export const MainPhrase = styled.h1`
   align-items: center;
   text-align: center;
   color: #FFFFFF;
+
+  @media screen and (min-width: 830px) {
+    font-size: 40px;
+    line-height: 48px;
+    width: 550px;
+    margin-left: 128px;
+  }
 `;
 
 export const SecPhrase = styled.p`
@@ -101,6 +87,13 @@ export const SecPhrase = styled.p`
   line-height: 28px;
   text-align: center;
   color: #FFFFFF;
+
+  @media screen and (min-width: 830px) {
+    font-size: 18px;
+    line-height: 24px;
+    width: 550px;
+    margin-left: 135px;
+  }
 `;
 
 export const PlayIconBg = styled.button`
@@ -120,20 +113,25 @@ export const PlayIconBg = styled.button`
     opacity: 0.8;
     cursor: pointer;
   }
+
+  @media screen and (min-width: 830px) {
+    left: 126px;
+  }
 `;
 
 export const PlayIcon = styled.img`
   display: flex;
   align-self: center;
-  margin-left: 3px; 
+  margin-left: 3px;
 `;
 
-export const PlayText = styled.p`
+export const PlayText = styled.a`
   position: absolute;
   height: 24px;
-  left: 100px;
+  width: 250px;
+  left: 90px;
   right: 34px;
-  top: 414px;
+  top: 426px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -141,4 +139,22 @@ export const PlayText = styled.p`
   line-height: 24px;
   text-decoration-line: underline;
   color: #FFFFFF;
+
+  @media screen and (min-width: 830px) {
+    left: 192px;
+  }
+`;
+
+export const SideImage = styled.img`
+  display: none;
+  position: absolute;
+
+  @media screen and (min-width: 830px) {
+    display:block;
+    background-image: url(${SideImageSVG});
+    width: 316px;
+    height: 290px;
+    right: 15%;
+    top: 150px;
+  }
 `;

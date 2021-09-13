@@ -1,23 +1,22 @@
 import React from 'react';
 
-import bgImage from '../../images/Image.png';
 import logo from '../../images/logo.svg';
 import playIcon from '../../images/playIcon.svg';
 
+import HeaderNavBar from '../HeaderNavBar';
 import { Container, Image, Gradient, Logo, LogoShape,
-  BecomeNannyButton, ButtonText, MainPhrase, SecPhrase,
+  MainPhrase, SecPhrase, SideImage,
   PlayIconBg, PlayIcon, PlayText } from './style';
 
 function Index() {
   return (
     <Container>
       <Gradient />
+      <Image />
       <LogoShape />
-      <Image src={ bgImage } alt="background-image" />
       <Logo src={ logo } alt="logo" />
-      <BecomeNannyButton type="button">
-        <ButtonText> Become a nanny today</ButtonText>
-      </BecomeNannyButton>
+      <HeaderNavBar />
+      <SideImage />
       <MainPhrase>
         Easily create or join a local nanny share with Hapu
       </MainPhrase>
@@ -28,7 +27,7 @@ function Index() {
       <PlayIconBg type="button">
         <PlayIcon src={ playIcon } alt="play icon" />
       </PlayIconBg>
-      <PlayText> See hapu in action (27 seconds) </PlayText>
+      <PlayText href="#"> See hapu in action (27 seconds) </PlayText>
     </Container>
   );
 }
