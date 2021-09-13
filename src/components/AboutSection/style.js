@@ -6,15 +6,33 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   margin-top: 45px;
+
+  @media screen and (min-width: 830px) {
+    flex-direction: row-reverse;
+  }
 `;
 
 export const AboutImage = styled.img`
   /* position: absolute; */
-  width: 304px;
-  height: 204px;
+  width: 300px;
+  height: 200px;
   /* left: 55px; */
   /* top: 800px; */
+  @media screen and (min-width: 830px) {
+    width: 584px;
+    height: 392px;
+  }
+`;
 
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: 830px) {
+    align-items: flex-start;
+    padding-left: 50px;
+  }
 `;
 
 export const AboutPhrase = styled.h4`
@@ -32,6 +50,10 @@ export const AboutPhrase = styled.h4`
   line-height: 32px;
   text-align: center;
   color: #3D3D3D;
+
+  @media screen and (min-width: 830px) {
+    margin-left: 0;
+  }
 `;
 
 export const AboutText = styled.p`
@@ -52,6 +74,11 @@ export const AboutText = styled.p`
     color: #5E20A4;
     text-decoration-line: underline;
   }
+
+  @media screen and (min-width: 830px) {
+    margin-left: 0;
+    text-align: start;
+  }
 `;
 
 export const GetStartedLink = styled.a`
@@ -68,6 +95,10 @@ export const GetStartedLink = styled.a`
   line-height: 24px;
   text-decoration-line: underline;
   color: #5E20A4;
+
+  @media screen and (min-width: 830px) {
+    margin-left: 0;
+  }
 `;
 
 export const Divider = styled.div`

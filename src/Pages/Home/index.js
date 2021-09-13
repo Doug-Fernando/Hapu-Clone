@@ -6,6 +6,7 @@ import AboutSection from '../../components/AboutSection';
 import RegisterEmailSection from '../../components/RegisterEmailSection';
 import SharedPaymentSection from '../../components/SharedPaymentSection';
 import FooterSection from '../../components/Footer';
+import Divider from './style';
 
 function index() {
   return (
@@ -13,6 +14,7 @@ function index() {
       <Header />
       <FeatPerson />
       <AboutSection />
+      <Divider />
       <RegisterEmailSection />
       <SharedPaymentSection />
       <FooterSection />
