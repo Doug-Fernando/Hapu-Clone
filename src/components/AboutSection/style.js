@@ -9,6 +9,7 @@ export const Container = styled.section`
 
   @media screen and (min-width: 830px) {
     flex-direction: row-reverse;
+    margin-left: 0;
   }
 `;
 
@@ -29,7 +30,9 @@ export const TextContainer = styled.div`
 
   @media screen and (min-width: 830px) {
     align-items: flex-start;
-    padding-left: 50px;
+    width: 600px;
+    margin-left: 0;
+    padding-left: 100px;
   }
 `;
 
