@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Phrase, Text, PhraseTwo, Divider } from './style';
+import { Container, Phrase, Text, PhraseTwo } from './style';
 
 function Index() {
   return (
@@ -18,7 +18,6 @@ function Index() {
       <PhraseTwo href="#">
         Read how Bridget’s share (without Hapu) ended over $15
       </PhraseTwo>
-      <Divider />
     </Container>
   );
 }

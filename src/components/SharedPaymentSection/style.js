@@ -8,6 +8,12 @@ export const Container = styled.section`
   /* position: absolute; */
   /* bottom: -195%; */
   align-items: center;
+
+  @media screen and (min-width: 830px) {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
 export const Phrase = styled.h4`
@@ -41,14 +47,4 @@ export const PhraseTwo = styled.a`
   text-align: center;
   text-decoration-line: underline;
   color: #5E20A4;
-`;
-
-export const Divider = styled.div`
-  /* position: absolute; */
-  /* bottom: -200%; */
-  margin: 64px 0 0;
-  width: 328px;
-  left: 38px; 
-  height: 0;
-  border: 1px solid #DFDFDF;
 `;
