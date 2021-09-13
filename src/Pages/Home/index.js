@@ -16,6 +16,7 @@ function index() {
       <AboutSection />
       <Divider />
       <RegisterEmailSection />
+      <Divider />
       <SharedPaymentSection />
       <FooterSection />
     </>

@@ -6,6 +6,9 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   width: 100%;
+
+  @media screen and (min-width: 830px) {
+  }
 `;
 
 export const Phrase = styled.h2`
@@ -49,6 +52,11 @@ export const InputGroup = styled.div`
   height: 120px;
   align-items: center;
   margin: 32px 0 0;
+
+  @media screen and (min-width: 830px) {
+  flex-direction: row;
+  justify-content: center;
+  }
 `;
 
 export const Input = styled.input`
@@ -60,6 +68,12 @@ export const Input = styled.input`
   border-radius: 4px;
   text-indent: 5px;
   border: 1px solid ${(props) => (props.inputField ? 'red' : '#CCC')};
+
+  @media screen and (min-width: 830px) {
+    width: 232px;
+    height: 48px;
+    margin: 74px 12px 0 0;
+  }
 `;
 
 export const SubmitButton = styled.button`
@@ -75,7 +89,14 @@ export const SubmitButton = styled.button`
   line-height: 20px;
   color: #FFFFFF;
   &:hover {
-    opacity: 0.9;
+    background: #00D970;
+    border: 1px solid #00D970;
+  }
+
+  @media screen and (min-width: 830px) {
+    width: 96px;
+    height: 48px;
+    margin: 74px 12px 0 0;
   }
 `;
 

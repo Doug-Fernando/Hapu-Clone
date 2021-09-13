@@ -100,10 +100,3 @@ export const GetStartedLink = styled.a`
     margin-left: 0;
   }
 `;
-
-export const Divider = styled.div`
-  width: 328px;
-  height: 0;
-  border: 1px solid #DFDFDF;
-  margin-top: 64px;
-`;

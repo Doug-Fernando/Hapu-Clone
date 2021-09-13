@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import newsLetterIntegration from '../../service/api';
 
 import { Container, Phrase, Text, Input, InputGroup, SubmitButton,
-  Divider, LoadAnimation } from './style';
+  LoadAnimation } from './style';
 
 const HTTP_SUCCESS_CODE = 200;
 
@@ -77,7 +77,6 @@ const Index = () => {
             </SubmitButton>)
           : <LoadAnimation />}
       </InputGroup>
-      <Divider />
     </Container>
   );
 };
