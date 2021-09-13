@@ -1,6 +1,6 @@
 import React from 'react';
 
-import featPersonImage from '../../images/ProfileImage.svg';
+import featPersonImage from '../../images/ProfileImage.png';
 
 import { Container, FeatPersonImg,
   FeatPersonText, FeatPersonSchedule } from './style';
