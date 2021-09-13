@@ -1,6 +1,8 @@
 # This project is a challenger of Jungle Devs
 First of all, the way I did the application maybe it's not the best.
 
+The side image ( where show the pic of *Jane* and *Kate* in desktop version), I used the image given in figma because of the time. I've a idea how to do that, but i need to study about pseudo-elements: `.class::after` and `.class::before`.
+
 # How to run the application
 Follow the steps below:
 ### Development mode
