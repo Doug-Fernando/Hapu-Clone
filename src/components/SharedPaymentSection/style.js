@@ -5,8 +5,6 @@ export const Container = styled.section`
   flex-direction: column;
   width: 100%;
   margin: 64px 0 0;
-  /* position: absolute; */
-  /* bottom: -195%; */
   align-items: center;
 
   @media screen and (min-width: 830px) {

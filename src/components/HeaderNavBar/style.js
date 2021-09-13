@@ -14,7 +14,7 @@ export const BecomeNannyButton = styled.a`
   border: 0;
 
   &:hover {
-    opacity: 0.9;
+    background: #00D970;
     cursor: pointer;
   }
 

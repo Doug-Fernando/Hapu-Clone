@@ -5,8 +5,6 @@ export const Container = styled.section`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* height: 216px; */
-
   padding-bottom: 32px;
   border-bottom: 1px solid #DFDFDF;
 
@@ -17,9 +15,6 @@ export const Container = styled.section`
 `;
 
 export const FeatPersonImg = styled.img`
-  /* position: absolute; */
-  /* top: calc(540px + 32px); */
-  /* left: 175px; */
   margin-top: 32px;
   height: 60px;
   width: 60px;
@@ -27,10 +22,6 @@ export const FeatPersonImg = styled.img`
 `;
 
 export const FeatPersonText = styled.p`
-  /* position: absolute; */
-  /* left: 20.56%; */
-  /* right: 20.56%; */
-  /* top: 620px; */
   width: 200px;
   height: 48px;
   margin: 16px 0 12px;
@@ -52,17 +43,11 @@ export const FeatPersonText = styled.p`
 `;
 
 export const FeatPersonSchedule = styled.p`
-  /* position: absolute; */
-  /* height: 20px; */
-  /* left: 15.5%; */
-  /* top: 680px; */
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
-  /* display: flex; */
-  /* align-items: center; */
   color: #000000;
   margin: 0;
 

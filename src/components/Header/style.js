@@ -110,7 +110,8 @@ export const PlayIconBg = styled.button`
   border: 0;
 
   &:hover {
-    opacity: 0.8;
+    background: #00D970;
+    border: 1px solid #00D970;
     cursor: pointer;
   }
 
@@ -154,7 +155,7 @@ export const SideImage = styled.img`
     background-image: url(${SideImageSVG});
     width: 316px;
     height: 290px;
-    right: 15%;
+    right: 10%;
     top: 150px;
   }
 `;

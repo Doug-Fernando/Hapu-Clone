@@ -102,27 +102,13 @@ export const Divider = styled.div`
 `;
 
 export const CopyrightText = styled.h5`
-  /* position: absolute;
-  height: 16px;
-  left: 6.94%;
-  right: 6.67%;
-  top: calc(50% - 16px/2 + 2150px); */
-
-  /* Body / X-Small (R12) */
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
-  /* identical to box height, or 133% */
-
   text-align: right;
-
-  /* Grey 24 */
-
   color: #3D3D3D;
-
   mix-blend-mode: normal;
   opacity: 0.6;
 `;

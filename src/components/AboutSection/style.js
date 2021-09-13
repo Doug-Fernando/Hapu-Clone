@@ -13,11 +13,9 @@ export const Container = styled.section`
 `;
 
 export const AboutImage = styled.img`
-  /* position: absolute; */
   width: 300px;
   height: 200px;
-  /* left: 55px; */
-  /* top: 800px; */
+
   @media screen and (min-width: 830px) {
     width: 584px;
     height: 392px;
@@ -36,12 +34,7 @@ export const TextContainer = styled.div`
 `;
 
 export const AboutPhrase = styled.h4`
-  /* position: absolute; */
-  /* left: 19.72%; */
-  /* right: 19.72%; */
-  /* bottom: -50%; */
   height: 64px;
-  /* width: 200px; */
   margin: 24px 80px 0;
   font-family: Inter;
   font-style: normal;
@@ -57,10 +50,6 @@ export const AboutPhrase = styled.h4`
 `;
 
 export const AboutText = styled.p`
-  /* position: absolute; */
-  /* left: 4.44%; */
-  /* right: 4.44%; */
-  /* bottom: -90%; */
   margin: 16px 16px 0;
   font-family: Inter;
   font-style: normal;
@@ -82,10 +71,6 @@ export const AboutText = styled.p`
 `;
 
 export const GetStartedLink = styled.a`
-  /* position: absolute;
-  left: 29%;
-  right: 28.33%;
-  bottom: -94%; */
   height: 24px;
   margin: 24px 0 0;
   font-family: Inter;

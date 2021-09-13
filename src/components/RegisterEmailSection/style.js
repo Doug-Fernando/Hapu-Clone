@@ -12,10 +12,6 @@ export const Container = styled.section`
 `;
 
 export const Phrase = styled.h2`
-  /* position: absolute;
-  left: 4.44%;
-  right: 4.44%;
-  bottom: -120%; */
   margin: 64px 40px 0;
   font-family: Inter;
   font-style: normal;
@@ -29,10 +25,6 @@ export const Phrase = styled.h2`
 `;
 
 export const Text = styled.p`
-  /* position: absolute; */
-  /* left: 4.44%; */
-  /* right: 4.44%; */
-  /* bottom: -132%; */
   margin: 16px 30px 0;
   font-family: Inter;
   font-style: normal;
@@ -44,8 +36,6 @@ export const Text = styled.p`
 `;
 
 export const InputGroup = styled.div`
-  /* position: absolute; */
-  /* bottom: -148%; */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -101,9 +91,6 @@ export const SubmitButton = styled.button`
 `;
 
 export const Divider = styled.div`
-  /* position: absolute;
-  bottom: -155%;
-  left: 38px; */
   width: 328px;
   height: 0;
   border: 1px solid #DFDFDF;
