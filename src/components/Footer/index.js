@@ -5,7 +5,7 @@ import LogoSVG from '../../images/logo2.svg';
 
 import { Container, Phrase, SecondPhrase, CreateNannyShareButton,
   CreateNannyShareButtonText, CalendarIcon,
-  BrowseLocalNannyShareLink,
+  BrowseLocalNannyShareLink, Divider, CopyrightText,
   Logo } from './style';
 
 import FooterLinks from '../FooterLinks';
@@ -32,6 +32,10 @@ function Index() {
       </BrowseLocalNannyShareLink>
       <Logo src={ LogoSVG } alt="Hapu logo" />
       <FooterLinks />
+      <Divider />
+      <CopyrightText>
+        Copyright © 2017 Hapu PTY Limited All rights reserved
+      </CopyrightText>
     </Container>
   );
 }

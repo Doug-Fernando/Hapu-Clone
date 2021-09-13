@@ -7,6 +7,11 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+
+  @media screen and (min-width: 830px) {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 `;
 
 export const LinksContainer = styled.div`
@@ -16,6 +21,11 @@ export const LinksContainer = styled.div`
   justify-content: center;
   height: 50px;
   margin-top: 30px;
+
+  @media screen and (min-width: 830px) {
+    width: auto;
+    align-items: center;
+  }
 `;
 
 export const ShareNannyLink = styled.a`
@@ -31,6 +41,10 @@ export const ShareNannyLink = styled.a`
 
   &:hover {
     color: #0D0085;
+  }
+
+  @media screen and (min-width: 830px) {
+    width: auto;
   }
 `;
 
@@ -48,6 +62,10 @@ export const OurStoryLink = styled.a`
   &:hover {
     color: #0D0085;
   }
+
+  @media screen and (min-width: 830px) {
+    width: auto;
+  }
 `;
 
 export const BlogLink = styled.a`
@@ -63,6 +81,10 @@ export const BlogLink = styled.a`
 
   &:hover {
     color: #0D0085;
+  }
+
+  @media screen and (min-width: 830px) {
+    width: auto;
   }
 `;
 
@@ -80,12 +102,17 @@ export const TermsPrivacyLink = styled.a`
   &:hover {
     color: #0D0085;
   }
+
+  @media screen and (min-width: 830px) {
+    width: auto;
+  }
 `;
 
 export const SocialMedias = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 35px;
+  
 `;
 
 export const SocialMediaIcon = styled.img`
@@ -99,36 +126,4 @@ export const SocialMediaIcon = styled.img`
     transform: scale(1.1);
     transition: 100ms linear;
   }
-`;
-
-export const Divider = styled.div`
-  width: 328px;
-  margin-top: 40px;
-  border: 1px solid #DFDFDF;
-`;
-
-export const CopyrightText = styled.h5`
-  /* position: absolute;
-  height: 16px;
-  left: 6.94%;
-  right: 6.67%;
-  top: calc(50% - 16px/2 + 2150px); */
-
-  /* Body / X-Small (R12) */
-
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 16px;
-  /* identical to box height, or 133% */
-
-  text-align: right;
-
-  /* Grey 24 */
-
-  color: #3D3D3D;
-
-  mix-blend-mode: normal;
-  opacity: 0.6;
 `;

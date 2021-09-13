@@ -6,7 +6,7 @@ import InstagramIcon from '../../images/Instagram.svg';
 
 import { Container, OurStoryLink, ShareNannyLink,
   BlogLink, TermsPrivacyLink, LinksContainer,
-  SocialMediaIcon, SocialMedias, Divider, CopyrightText } from './style';
+  SocialMediaIcon, SocialMedias } from './style';
 
 function Index() {
   return (
@@ -30,10 +30,7 @@ function Index() {
         <SocialMediaIcon src={ TwitterIcon } alt="Twitter" />
         <SocialMediaIcon src={ InstagramIcon } alt="Instagram" />
       </SocialMedias>
-      <Divider />
-      <CopyrightText>
-        Copyright © 2017 Hapu PTY Limited All rights reserved
-      </CopyrightText>
+
     </Container>
   );
 }
